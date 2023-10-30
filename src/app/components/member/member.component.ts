@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import Config from '../../../config/config';
-import * as $ from 'jquery';
 
 @Component({
   selector: 'app-member',
@@ -17,12 +15,10 @@ export class MemberComponent implements OnInit {
 
   constructor(private http: HttpClient) {}
 
-  ngOnInit(){
-    
+  ngOnInit() {
     this.initCardListeners();
   }
 
-  
   initCardListeners() {
     const boxes = document.querySelectorAll('.counter-box');
     boxes.forEach((box) => {
@@ -31,32 +27,34 @@ export class MemberComponent implements OnInit {
           b.classList.remove('colored');
         });
         box.classList.add('colored');
-        this.toggleCardColors(0, true)
+        this.toggleCardColors(0, true);
         Array.from(box.children).forEach((child: HTMLElement) => {
           child.style.setProperty('color', '#ffffff', 'important');
         });
       });
-      box.addEventListener('mouseleave', () => {   
+      box.addEventListener('mouseleave', () => {
         box.classList.remove('colored');
-        document.querySelectorAll('.counter-box')[0].classList.add('colored')
+        document.querySelectorAll('.counter-box')[0].classList.add('colored');
         Array.from(box.children).forEach((child: HTMLElement) => {
           child.style.removeProperty('color');
         });
-        this.toggleCardColors(0)
+        this.toggleCardColors(0);
       });
-    })
-    if (localStorage.getItem('theme') === 'light') this.toggleCardColors(0)
+    });
+    if (localStorage.getItem('theme') === 'light') this.toggleCardColors(0);
   }
-  toggleCardColors(index:number, remove:boolean = false ) {
-    const elements = Array.from(document.querySelectorAll('.counter-box')[index].children)
+  toggleCardColors(index: number, remove: boolean = false) {
+    const elements = Array.from(
+      document.querySelectorAll('.counter-box')[index].children
+    );
     if (!remove) {
       elements.forEach((child: HTMLElement) => {
         child.style.setProperty('color', '#ffffff', 'important');
-      })
+      });
     } else {
       elements.forEach((child: HTMLElement) => {
         child.style.removeProperty('color');
-      })
+      });
     }
   }
 }

@@ -8,7 +8,8 @@
     "build": "yarn run config && ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng b --prod --base-href https://amirben113.github.io/assiva/ && npx ngh --dir=dist/assiva"
   },
   "engines": {
     "npm": "please-use-yarn",
@@ -52,6 +53,7 @@
     "@types/jasmine": "3.6.0",
     "@types/jasminewd2": "2.0.3",
     "@types/node": "12.11.1",
+    "angular-cli-ghpages": "^1.0.7",
     "codelyzer": "6.0.0",
     "exact": "0.8.0",
     "husky": "4.3.8",

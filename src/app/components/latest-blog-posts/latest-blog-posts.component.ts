@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import Config from '../../../config/config';
 
 @Component({
   selector: 'app-latest-blog-posts',
