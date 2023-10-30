@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng b --prod --base-href https://amirben113.github.io/assiva/ && npx ngh --dir=dist/assiva"
+    "deploy": "ng build --prod --base-href https://amirben113.github.io/assiva/  && npx angular-cli-ghpages --dir=dist/assiva"
   },
   "engines": {
     "npm": "please-use-yarn",
