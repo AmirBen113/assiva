@@ -1,0 +1,164 @@
+<footer class="footer-section">
+  <div class="container">
+    <div class="footer-content pt-5 pb-5">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 mb-5">
+          <div class="footer-widget">
+            <div class="footer-logo">
+              <a href="index.html"
+                ><img
+                  src="../../../../assets/img/logo-assiva-white.jpeg"
+                  class="img-fluid"
+                  alt="logo"
+                  height="80"
+                  width="130"
+              /></a>
+            </div>
+            <div class="footer-text">
+              <p>
+                Welcome to Assiva consulting
+              </p>
+            </div>
+            <div class="footer-social-icon">
+              <span>Connect with us</span>
+
+              <a href="https://www.facebook.com/assiva" target="_blank"
+                ><fa-icon [icon]="['fab', 'facebook']"></fa-icon
+              ></a>
+              <a href="https://www.instagram.com/assiva" target="_blank"
+                ><fa-icon [icon]="['fab', 'instagram']"></fa-icon
+              ></a>
+              <a href="https://twitter.com/test?lang=en" target="_blank"
+                ><fa-icon [icon]="['fab', 'twitter']"></fa-icon
+              ></a>
+              <a
+                href="https://lk.linkedin.com/company/assiva-community"
+                target="_blank"
+                ><fa-icon [icon]="['fab', 'linkedin']"></fa-icon
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCPPO-QR0Dv13ewjhPsc_I3w/featured"
+                target="_blank"
+                ><fa-icon [icon]="['fab', 'youtube']"></fa-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3>Useful Links</h3>
+            </div>
+            <ul>
+              <li>
+                <a
+                  routerLink="/"
+                  [routerLinkActive]="['active']"
+                  [routerLinkActiveOptions]="{ exact: true }"
+                  >Home</a
+                >
+              </li>
+              <li><a href="https://github.com/assiva">GitHub</a></li>
+              <li>
+                <a
+                  routerLink="/contact"
+                  [routerLinkActive]="['active']"
+                  [routerLinkActiveOptions]="{ exact: true }"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="http://leaderboard.assiva.org/" target="_blank"
+                  >Leaderboard</a
+                >
+              </li>
+              <li>
+                <a
+                  routerLink="/blog"
+                  [routerLinkActive]="['active']"
+                  [routerLinkActiveOptions]="{ exact: true }"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://github.com/assiva/brand-assets"
+                >
+                  Brand Assets
+                </a>
+              </li>
+              <li>
+                <a
+                  routerLink="/events"
+                  [routerLinkActive]="['active']"
+                  [routerLinkActiveOptions]="{ exact: true }"
+                  >Events</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/assiva/assiva/blob/master/README.md"
+                >
+                  Contribution Guidelines</a
+                >
+              </li>
+              <li><a routerLink="/code-conduct">Code of Conduct</a></li>
+              <li>
+                <a
+                  href="https://github.com/assiva"
+                  target="_blank"
+                  >Annual Report 2023</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3>Subscribe</h3>
+            </div>
+            <div class="footer-text mb-25">
+              <p>
+                Don’t forget to subscribe to our news letters, enter your e-mail
+                here.
+              </p>
+            </div>
+            <div class="subscribe-form">
+              <form [formGroup]="subscribeForm" (ngSubmit)="subscribe()">
+                <input type="text" id="email" placeholder="Email Address" />
+                <button><i class="fa fa-envelope-o"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+          <div class="copyright-text">
+            <p>
+              Copyright &copy; {{ getCurrentYear() }} | All Rights Reserved
+              <a href="https://assiva.org">ASSIVA CONSULTING</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+          <div class="footer-menu">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Policy</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

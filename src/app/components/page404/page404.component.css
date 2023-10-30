@@ -1,0 +1,23 @@
+h4 {
+  font-size: 53px;
+}
+
+h6 {
+  font-size: 18px;
+  margin-top: 34px;
+}
+
+.component-404 {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 375px) {
+  h4 {
+    font-size: 30px;
+  }
+
+  h6 {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+}

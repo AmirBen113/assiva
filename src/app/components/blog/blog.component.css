@@ -1,0 +1,94 @@
+.my-pagination /deep/ .ngx-pagination .current {
+  background: black;
+}
+
+.headerText {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 4rem;
+}
+.card-img {
+  border-radius: 12px 12px 0px 0px;
+  padding-bottom: 50%;
+  background-color: azure;
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  border-radius: 12px;
+  display: block;
+  height: 400px !important;
+}
+
+.card-title {
+  margin-bottom: 0.3rem;
+}
+
+.cat {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.fa-users {
+  margin-left: 1rem;
+}
+
+.card-footer {
+  font-size: 0.8rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.assiva-btn {
+  background: #5a5af3;
+  color: #fff;
+  border: 2px solid #5a5af3;
+  border-radius: 50px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.assiva-btn:hover {
+  background: #7272f5;
+  border-color: #7272f5;
+}
+
+.lead {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #525151;
+  text-align: justify;
+}
+
+.view-on-medium {
+  border-radius: 50px;
+  text-decoration: none !important;
+}
+
+/*@media only screen and (max-device-width: 768px) {
+  .card {
+    margin-left: 60px !important;
+  }
+}
+
+@media only screen and (max-device-width: 425px) {
+  .card {
+    margin-left: 72px !important;
+  }
+}
+
+@media only screen and (max-device-width: 375px) {
+  .card {
+    margin-left: 49px !important;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  .card {
+    margin-left: 13px !important;
+  }
+}*/
