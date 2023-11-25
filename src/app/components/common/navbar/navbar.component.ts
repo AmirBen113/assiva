@@ -94,12 +94,12 @@ export class NavbarComponent implements OnInit {
   setTheme(theme: string) {
     if (theme === 'dark') {
       this.toggleIcon = 'sun';
-      this.navbarLogo = 'ssets/img/logo-assiva-white.jpeg';
+      this.navbarLogo = 'assets/img/logo-assiva-no-background.png';
       localStorage.setItem('theme', 'dark');
       document.documentElement.setAttribute('data-theme', 'dark');
     } else {
       this.toggleIcon = 'moon';
-      this.navbarLogo = 'assets/img/logo-assiva-black.jpeg';
+      this.navbarLogo = 'assets/img/logo-assiva-no-background.png';
       localStorage.setItem('theme', 'light');
       document.documentElement.setAttribute('data-theme', 'light');
     }

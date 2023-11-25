@@ -14,8 +14,15 @@
   color: inherit;
 }
 
-::ng-deep .mat-select-value{    
-  color: var(--text-color-primary) !important;  }
+::ng-deep .mat-select-value {
+  color: var(--text-color-primary) !important;
+}
+
+.description-text {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: var(--text-color-primary);
+}
 
 @media (max-width: 767px) {
   .team-boxed h2 {
@@ -55,7 +62,7 @@
 }
 
 .circle-img {
-  width: 8rem; 
+  width: 8rem;
   height: 8rem;
   object-fit: cover;
   border-radius: 100%;
