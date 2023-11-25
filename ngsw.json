@@ -1,0 +1,162 @@
+{
+  "configVersion": 1,
+  "timestamp": 1700936452854,
+  "index": "https://amirben113.github.io/assiva/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://amirben113.github.io/assiva/favicon.ico",
+        "https://amirben113.github.io/assiva/index.html",
+        "https://amirben113.github.io/assiva/main-es2015.824987b8b84b379ccddc.js",
+        "https://amirben113.github.io/assiva/main-es5.824987b8b84b379ccddc.js",
+        "https://amirben113.github.io/assiva/manifest.webmanifest",
+        "https://amirben113.github.io/assiva/polyfills-es2015.bf2cc10371feae2af496.js",
+        "https://amirben113.github.io/assiva/polyfills-es5.8e41b7c03cd439559f21.js",
+        "https://amirben113.github.io/assiva/runtime-es2015.a4dadbc03350107420a4.js",
+        "https://amirben113.github.io/assiva/runtime-es5.a4dadbc03350107420a4.js",
+        "https://amirben113.github.io/assiva/scripts.568694a568f45ab03c95.js",
+        "https://amirben113.github.io/assiva/styles.8545b44fea0952851384.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://amirben113.github.io/assiva/WorldMap.2d228ff8f310fa70ac5e.svg",
+        "https://amirben113.github.io/assiva/assets/img/0693E4F0-AF99-4388-9F74-698251607480_4_5005_c.jpeg",
+        "https://amirben113.github.io/assiva/assets/img/2.svg",
+        "https://amirben113.github.io/assiva/assets/img/404page.webp",
+        "https://amirben113.github.io/assiva/assets/img/CurveLine.svg",
+        "https://amirben113.github.io/assiva/assets/img/WorldMap.svg",
+        "https://amirben113.github.io/assiva/assets/img/avatar.png",
+        "https://amirben113.github.io/assiva/assets/img/banner-4.webp",
+        "https://amirben113.github.io/assiva/assets/img/blog-post-2.webp",
+        "https://amirben113.github.io/assiva/assets/img/ca.png",
+        "https://amirben113.github.io/assiva/assets/img/features-1.svg",
+        "https://amirben113.github.io/assiva/assets/img/features-2.svg",
+        "https://amirben113.github.io/assiva/assets/img/features-3.svg",
+        "https://amirben113.github.io/assiva/assets/img/features-4.svg",
+        "https://amirben113.github.io/assiva/assets/img/git.svg",
+        "https://amirben113.github.io/assiva/assets/img/img-member.svg",
+        "https://amirben113.github.io/assiva/assets/img/img-member2.svg",
+        "https://amirben113.github.io/assiva/assets/img/img-we-do.svg",
+        "https://amirben113.github.io/assiva/assets/img/logo-assiva-black.jpeg",
+        "https://amirben113.github.io/assiva/assets/img/logo-assiva-color.jpeg",
+        "https://amirben113.github.io/assiva/assets/img/logo-assiva-no-background.png",
+        "https://amirben113.github.io/assiva/assets/img/logo-assiva-white.jpeg",
+        "https://amirben113.github.io/assiva/assets/img/mascot.png",
+        "https://amirben113.github.io/assiva/assets/img/podcast.svg",
+        "https://amirben113.github.io/assiva/assets/img/special-events/ballerina/ballerina.png",
+        "https://amirben113.github.io/assiva/assets/img/special-events/ballerina/bg.jpg",
+        "https://amirben113.github.io/assiva/assets/img/special-events/ballerina/manuranga.png",
+        "https://amirben113.github.io/assiva/assets/img/special-events/ballerina/wso2.png",
+        "https://amirben113.github.io/assiva/assets/img/special-events/ballerina/wso2inc.png",
+        "https://amirben113.github.io/assiva/assets/img/streaming/facebook.png",
+        "https://amirben113.github.io/assiva/assets/img/streaming/twitch.png",
+        "https://amirben113.github.io/assiva/assets/img/streaming/youtube.png",
+        "https://amirben113.github.io/assiva/assets/img/topography.svg",
+        "https://amirben113.github.io/assiva/assets/img/up-arrow.webp",
+        "https://amirben113.github.io/assiva/assets/img/wave.svg",
+        "https://amirben113.github.io/assiva/owl.video.play.7f01b07148f205f6e825.png",
+        "https://amirben113.github.io/assiva/topography.25b51db14378afd93491.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "medium-api",
+      "patterns": [
+        "https:\\/\\/ap"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 21600000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://amirben113.github.io/assiva/WorldMap.2d228ff8f310fa70ac5e.svg": "b66c58ac9485a53eab72a912522f963e05b76eeb",
+    "https://amirben113.github.io/assiva/assets/img/0693E4F0-AF99-4388-9F74-698251607480_4_5005_c.jpeg": "060e7999a637e2931074be2ac6e5d001c5715072",
+    "https://amirben113.github.io/assiva/assets/img/2.svg": "3c6106a974f2bf196ba543ac82fc71b930dc0d97",
+    "https://amirben113.github.io/assiva/assets/img/404page.webp": "1337384ce573b6ee79c05c44100765214e7b8ceb",
+    "https://amirben113.github.io/assiva/assets/img/CurveLine.svg": "63fe8401819ff781f03baff66b20ba8371f1cc9b",
+    "https://amirben113.github.io/assiva/assets/img/WorldMap.svg": "b66c58ac9485a53eab72a912522f963e05b76eeb",
+    "https://amirben113.github.io/assiva/assets/img/avatar.png": "6cc2ca5bb137a0d5b4423ca3d909d3e9347078b0",
+    "https://amirben113.github.io/assiva/assets/img/banner-4.webp": "35dad7b8da1af09b38c7fa5cc97a244a7d33e530",
+    "https://amirben113.github.io/assiva/assets/img/blog-post-2.webp": "2456abe84fc0251aa0f8264c68c0a5b26b4653f3",
+    "https://amirben113.github.io/assiva/assets/img/ca.png": "bf3d9dc9da07172afd2882352bc027c5855d7c50",
+    "https://amirben113.github.io/assiva/assets/img/features-1.svg": "80b990c2a94554ea312a1a10aaef5d0580fd7e0f",
+    "https://amirben113.github.io/assiva/assets/img/features-2.svg": "7469ab1be0de7a537e3fa3b01b12b186621e6b6f",
+    "https://amirben113.github.io/assiva/assets/img/features-3.svg": "4500c82a61e1e3ff1704fa27f69dfab188ac7279",
+    "https://amirben113.github.io/assiva/assets/img/features-4.svg": "221f97d2b88ca798c46bed84b90fb602feb90f8d",
+    "https://amirben113.github.io/assiva/assets/img/git.svg": "e424fe7691cc1031bde51f778a9a168c471ef98e",
+    "https://amirben113.github.io/assiva/assets/img/img-member.svg": "399739938e79e297d300e7c16a8c2d3584aafb32",
+    "https://amirben113.github.io/assiva/assets/img/img-member2.svg": "408ab954d8a34c6151891e2d1bcf0d3679952323",
+    "https://amirben113.github.io/assiva/assets/img/img-we-do.svg": "74caf536489b88839c287213d50c5087b15ce3ac",
+    "https://amirben113.github.io/assiva/assets/img/logo-assiva-black.jpeg": "150cb81be2c9f7e9ebf78f5af5036fe13ac8eacc",
+    "https://amirben113.github.io/assiva/assets/img/logo-assiva-color.jpeg": "4c40863403690f51986b114947324502c44c10bb",
+    "https://amirben113.github.io/assiva/assets/img/logo-assiva-no-background.png": "6bc31e8b0417f98aee5ef4a0d8709ce2021d0ecf",
+    "https://amirben113.github.io/assiva/assets/img/logo-assiva-white.jpeg": "00cb639f1368976c1e38e7e6503b4f9aeaa09bd3",
+    "https://amirben113.github.io/assiva/assets/img/mascot.png": "5d09d57cd5e47cbfe7af413a7b4f0cad3251c3e7",
+    "https://amirben113.github.io/assiva/assets/img/podcast.svg": "1699da6401c2166467631078ddae69e81e6c0dd3",
+    "https://amirben113.github.io/assiva/assets/img/special-events/ballerina/ballerina.png": "f1543bc172150a0cbb1ab9b6f3d97d163eee5bf0",
+    "https://amirben113.github.io/assiva/assets/img/special-events/ballerina/bg.jpg": "1e875b86703d3de0bbb903e54a4736eff59b7d7d",
+    "https://amirben113.github.io/assiva/assets/img/special-events/ballerina/manuranga.png": "fc852cc9c08ba1eb11faf7404a42af4770a5f60b",
+    "https://amirben113.github.io/assiva/assets/img/special-events/ballerina/wso2.png": "595a9075dab2d50daa0b1979b37fe37ba2d6bbf2",
+    "https://amirben113.github.io/assiva/assets/img/special-events/ballerina/wso2inc.png": "fa3254b1272a221ba1ad35f56a006b8f7f3a4e69",
+    "https://amirben113.github.io/assiva/assets/img/streaming/facebook.png": "65d51c07be58295c6498859d59c960412ff7b519",
+    "https://amirben113.github.io/assiva/assets/img/streaming/twitch.png": "998bcb688668fe67a158963bade3cf3834dd70a2",
+    "https://amirben113.github.io/assiva/assets/img/streaming/youtube.png": "5550e3c09847ec8f9c91c4e6046975b7fbe694cc",
+    "https://amirben113.github.io/assiva/assets/img/topography.svg": "6e57327eed7760e9a5cb101d456b8749fb14a9c8",
+    "https://amirben113.github.io/assiva/assets/img/up-arrow.webp": "f9b65b94ffdc5c61d0e852fc972e9f7509c4b09f",
+    "https://amirben113.github.io/assiva/assets/img/wave.svg": "1d627f5ea22058504fc6cee2c9d57126b5d02e63",
+    "https://amirben113.github.io/assiva/favicon.ico": "f6e76a748d57352534c1570a99f558e26e041129",
+    "https://amirben113.github.io/assiva/index.html": "d1994beafa38bf9e3a28b1ec7a2f098113f7d885",
+    "https://amirben113.github.io/assiva/main-es2015.824987b8b84b379ccddc.js": "ac00515ea9036543dd21787bd45e402f08f7721b",
+    "https://amirben113.github.io/assiva/main-es5.824987b8b84b379ccddc.js": "d651a16817a1fa9b007ac658cc36aeba9fc11896",
+    "https://amirben113.github.io/assiva/manifest.webmanifest": "1b7ba514a75be480812c5696558c421108dbd2b8",
+    "https://amirben113.github.io/assiva/owl.video.play.7f01b07148f205f6e825.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
+    "https://amirben113.github.io/assiva/polyfills-es2015.bf2cc10371feae2af496.js": "c0bfc31b431b81064dd1537bc990cd6352b0d36d",
+    "https://amirben113.github.io/assiva/polyfills-es5.8e41b7c03cd439559f21.js": "5059dc9e744a50ec2e25da2e3d084b783ccd3531",
+    "https://amirben113.github.io/assiva/runtime-es2015.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://amirben113.github.io/assiva/runtime-es5.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://amirben113.github.io/assiva/scripts.568694a568f45ab03c95.js": "c27324de6b5e2e125f1dd2334a2ff4f3bf8c7a07",
+    "https://amirben113.github.io/assiva/styles.8545b44fea0952851384.css": "fb5647a991e44e234bb5b979903dcd1c15bfb7e8",
+    "https://amirben113.github.io/assiva/topography.25b51db14378afd93491.svg": "6e57327eed7760e9a5cb101d456b8749fb14a9c8"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
