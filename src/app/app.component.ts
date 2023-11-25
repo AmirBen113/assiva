@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { FadeInAnimation } from './animations/fade-in.animation';
 
 @Component({
@@ -11,16 +10,5 @@ import { FadeInAnimation } from './animations/fade-in.animation';
 export class AppComponent implements OnInit {
   title = 'assiva';
 
-  ngOnInit(): void {
-    window.onbeforeunload = () => {
-      sessionStorage.setItem('renderRouteAnimation', 'false');
-    };
-  }
-
-  prepareRoute(outlet: RouterOutlet) {
-    if (sessionStorage.getItem('renderRouteAnimation') === 'true') {
-      return outlet?.activatedRouteData?.['animation'];
-    }
-    return null;
-  }
+  ngOnInit(): void {}
 }
