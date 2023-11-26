@@ -10,7 +10,6 @@ import { HomeComponent } from './components/home/home.component';
 import { MemberComponent } from './components/member/member.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
-import { CodeOfConductComponent } from './components/code-of-conduct/code-of-conduct.component';
 import {
   FaIconLibrary,
   FontAwesomeModule,
@@ -30,7 +29,6 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BlogComponent } from './components/blog/blog.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { LatestBlogPostsComponent } from './components/latest-blog-posts/latest-blog-posts.component';
 import { BoardComponent } from './components/board/board.component';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -48,9 +46,7 @@ import { MatSelectModule } from '@angular/material/select';
     ContactComponent,
     HomeComponent,
     MemberComponent,
-    CodeOfConductComponent,
     BlogComponent,
-    LatestBlogPostsComponent,
     BoardComponent,
     Page404Component,
   ],
