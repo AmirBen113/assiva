@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy": "ng build --prod --base-href https://amirben113.github.io/assiva/  && npx angular-cli-ghpages --dir=dist/assiva",
-    "deploy1": "ng b --prod --base-href https://amirben113.github.io/assiva/ && npx ngh --dir=dist/assiva"},
+    "deploy1": "ng b --prod --base-href https://amirben113.github.io/assiva/ && npx ngh --dir=dist/assiva"
+  },
   "engines": {
     "npm": "please-use-yarn",
     "yarn": ">= 1.17.3",
@@ -28,6 +29,7 @@
     "@angular/platform-browser": "11.2.11",
     "@angular/platform-browser-dynamic": "11.2.11",
     "@angular/router": "11.2.11",
+    "@emailjs/browser": "^3.11.0",
     "@fortawesome/angular-fontawesome": "0.8.0",
     "@fortawesome/fontawesome-svg-core": "1.2.28",
     "@fortawesome/free-brands-svg-icons": "5.13.0",
