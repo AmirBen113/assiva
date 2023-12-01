@@ -23,8 +23,6 @@ export class ContactComponent implements OnInit {
   faPhoneAlt = faPhoneAlt;
 
   ngOnInit() {
-    emailjs.init('Wy0XJ_0uBsfzHfxnW');
-
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
@@ -35,12 +33,10 @@ export class ContactComponent implements OnInit {
 
   contact(e: Event) {
     if (this.contactForm.status === 'VALID') {
-      console.log(environment.emailServiceId);
-      emailjs.init('Wy0XJ_0uBsfzHfxnW');
       emailjs
         .sendForm(
-          'service_qevbq8g',
-          'template_g3njgc4',
+          environment.emailServiceId,
+          environment.emailTemplateId,
           e.target as HTMLFormElement,
           environment.emailUserId
         )
