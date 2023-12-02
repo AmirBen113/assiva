@@ -33,6 +33,7 @@ export class ContactComponent implements OnInit {
 
   contact(e: Event) {
     if (this.contactForm.status === 'VALID') {
+      emailjs.init('Wy0XJ_0uBsfzHfxnW');
       emailjs
         .sendForm(
           environment.emailServiceId,
