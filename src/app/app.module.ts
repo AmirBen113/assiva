@@ -36,6 +36,7 @@ import { Page404Component } from './components/page404/page404.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
+import { ContactSuccessComponent } from './components/contact-success/contact-success.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { MatSelectModule } from '@angular/material/select';
     BlogComponent,
     BoardComponent,
     Page404Component,
+    ContactSuccessComponent,
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { HomeComponent } from './components/home/home.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BoardComponent } from './components/board/board.component';
 import { Page404Component } from './components/page404/page404.component';
+import { ContactSuccessComponent } from './components/contact-success/contact-success.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, data: { animation: 'Home' } },
@@ -14,6 +15,11 @@ const routes: Routes = [
     path: 'contact',
     component: ContactComponent,
     data: { animation: 'Contact' },
+  },
+  {
+    path: 'contact-success',
+    component: ContactSuccessComponent,
+    data: { animation: 'Contact-Success' },
   },
   { path: 'blog', component: BlogComponent, data: { animation: 'Blog' } },
   { path: 'board', component: BoardComponent, data: { animation: 'Board' } },
@@ -27,6 +33,7 @@ const routes: Routes = [
       relativeLinkResolution: 'corrected',
       scrollPositionRestoration: 'enabled',
       anchorScrolling: 'enabled',
+      useHash: true,
     }),
   ],
   exports: [RouterModule],

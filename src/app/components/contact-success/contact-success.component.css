@@ -1,0 +1,156 @@
+.heading::before {
+  content: '';
+  background: #5a5af3;
+  height: 5px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(48px);
+}
+
+.heading::after {
+  content: '';
+  background: #5a5af3;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+.heading {
+  font-size: 24px;
+}
+
+h2,
+p {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+  padding-bottom: 30px;
+}
+
+.contact-overlay {
+  background-image: url('../../../assets/img/WorldMap.svg');
+  background-position: top;
+}
+
+.headerText {
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.lead {
+  text-align: left;
+  line-height: 2rem;
+}
+.contact .info-box {
+  color: #444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+.contact .info-box i {
+  font-size: 32px;
+  color: #68a4c4;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #a2cce3;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #666;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+fa-icon {
+  font-size: 20px;
+}
+
+.info-box {
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.info-box:hover {
+  background-color: #edeeff;
+}
+
+.info-box a {
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.info-box a:hover {
+  color: #6d75e5;
+}
+
+form {
+  background-color: #fff;
+}
+
+.contact .info-box-success {
+  color: #444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  text-align: initial;
+}
+
+.contact .info-box-success i {
+  font-size: 32px;
+  color: #68a4c4;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #a2cce3;
+}
+
+.contact .info-box-success h3 {
+  font-size: 20px;
+  color: #666;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box-success p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-align: initial;
+  margin: 20px;
+}

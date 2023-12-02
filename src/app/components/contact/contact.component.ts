@@ -7,6 +7,7 @@ import {
   faPhoneAlt,
 } from '@fortawesome/free-solid-svg-icons';
 import { environment } from '../../../environments/environment.prod';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -16,7 +17,7 @@ import { environment } from '../../../environments/environment.prod';
 export class ContactComponent implements OnInit {
   contactForm: FormGroup;
 
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder, private router: Router) {}
 
   faAddressBook = faAddressBook;
   faEnvelope = faEnvelope;
@@ -44,6 +45,7 @@ export class ContactComponent implements OnInit {
         .then(
           () => {
             this.contactForm.reset();
+            this.router.navigate(['/contact-success']);
           },
           (error) => {
             console.log(error.text);
