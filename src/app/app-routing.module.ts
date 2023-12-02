@@ -30,7 +30,6 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
-      relativeLinkResolution: 'corrected',
       scrollPositionRestoration: 'enabled',
       anchorScrolling: 'enabled',
       useHash: true,
