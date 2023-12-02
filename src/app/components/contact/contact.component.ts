@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import {
+  UntypedFormBuilder,
+  UntypedFormGroup,
+  Validators,
+} from '@angular/forms';
 import emailjs from 'emailjs-com';
 import {
   faAddressBook,
@@ -15,9 +19,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./contact.component.css'],
 })
 export class ContactComponent implements OnInit {
-  contactForm: FormGroup;
+  contactForm: UntypedFormGroup;
 
-  constructor(private fb: FormBuilder, private router: Router) {}
+  constructor(private fb: UntypedFormBuilder, private router: Router) {}
 
   faAddressBook = faAddressBook;
   faEnvelope = faEnvelope;

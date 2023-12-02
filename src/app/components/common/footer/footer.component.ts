@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import {
+  UntypedFormBuilder,
+  UntypedFormGroup,
+  Validators,
+} from '@angular/forms';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +11,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./footer.component.css'],
 })
 export class FooterComponent implements OnInit {
-  subscribeForm: FormGroup;
+  subscribeForm: UntypedFormGroup;
 
-  constructor(private form: FormBuilder) {
+  constructor(private form: UntypedFormBuilder) {
     this.subscribeForm = this.form.group({
       email: ['', [Validators.required, Validators.email]],
     });
