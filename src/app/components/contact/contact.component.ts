@@ -33,7 +33,12 @@ export class ContactComponent implements OnInit {
       email: ['', [Validators.required, Validators.email]],
       subject: ['', Validators.required],
       message: ['', Validators.required],
+      recaptcha: ['', Validators.required],
     });
+  }
+
+  resolved(captchaResponse: string) {
+    console.log(`Resolved captcha with response: ${captchaResponse}`);
   }
 
   contact(e: Event) {

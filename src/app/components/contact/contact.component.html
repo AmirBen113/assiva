@@ -159,6 +159,24 @@
                 Message is required
               </div>
             </div>
+            <div class="form-group">
+              <re-captcha
+                (resolved)="resolved($event)"
+                siteKey="6Ld4wSQpAAAAAN1qqv4ZGhIszU17zGOh5_dEZFZd"
+                formControlName="recaptcha"
+                name="recaptcha"
+              ></re-captcha>
+              <div
+                *ngIf="
+                  this.contactForm.controls['recaptcha'].invalid &&
+                  (this.contactForm.controls['recaptcha'].dirty ||
+                    this.contactForm.controls['recaptcha'].touched)
+                "
+                class="validate"
+              >
+                recaptcha is required
+              </div>
+            </div>
             <div class="mb-3">
               <div class="loading">Loading</div>
               <div class="error-message"></div>

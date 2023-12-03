@@ -37,6 +37,13 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { ContactSuccessComponent } from './components/contact-success/contact-success.component';
+import {
+  RECAPTCHA_SETTINGS,
+  RecaptchaFormsModule,
+  RecaptchaModule,
+  RecaptchaSettings,
+} from 'ng-recaptcha';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -67,8 +74,17 @@ import { ContactSuccessComponent } from './components/contact-success/contact-su
     MatFormFieldModule,
     MatSelectModule,
     MatProgressSpinnerModule,
+    RecaptchaModule,
+    RecaptchaFormsModule,
   ],
-  providers: [],
+  providers: [
+    {
+      provide: RECAPTCHA_SETTINGS,
+      useValue: {
+        siteKey: environment.siteKey,
+      } as RecaptchaSettings,
+    },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {
